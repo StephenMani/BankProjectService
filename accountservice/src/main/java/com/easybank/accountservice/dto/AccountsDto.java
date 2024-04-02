@@ -10,6 +10,10 @@ import lombok.Setter;
 @Data@AllArgsConstructor@Getter@Setter
 public class AccountsDto {
 
+	public AccountsDto() {
+		// TODO Auto-generated constructor stub
+	}
+
 	private long accountNumber;
 	
 	private String accountType;
